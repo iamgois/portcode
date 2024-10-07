@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar'
+import Features from '../components/Features'
 import Link from 'next/link';
 
 {/* Icones */}
@@ -8,6 +9,7 @@ import { FaArrowRight } from "react-icons/fa";
 export default function Home() {
   return (
     <div className='h-screen'>
+      <section></section>
       <Navbar />
 
       <div className='flex flex-col text-center items-center justify-center h-5/6 gap-6'>
@@ -36,6 +38,7 @@ export default function Home() {
         </div>
       </div>
 
+      <Features />
 
     </div>
   );
