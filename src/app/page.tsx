@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar'
 import Features from '../components/Features'
+import Footer from '../components/Footer'
 import Link from 'next/link';
 
 {/* Icones */}
@@ -39,6 +40,8 @@ export default function Home() {
       </div>
 
       <Features />
+
+      <Footer /> 
 
     </div>
   );
